@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>calculator-app</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="culc__header">
+        <div class="numbers">
+          <p class="number number__one">1</p>
+          <p class="number number__two">2</p>
+          <p class="number number__three">3</p>
+        </div>
+        <div class="title">
+          <h1 class="culc__h1">Calc</h1>
+          <div class="input__box">
+            <h2 class="theme__h2">THEME</h2>
+            <div class="toggle">
+              <input id="mode1" name="state-d" type="radio" />
+              <label for="mode1" class="toggle__label label__mode1"></label>
+              <input id="mode2" name="state-d" type="radio" />
+              <label
+                for="mode2"
+                class="toggle__label label__mode2 opacity-0"
+              ></label>
+              <input id="mode3" name="state-d" type="radio" />
+              <label
+                for="mode3"
+                class="toggle__label label__mode3 opacity-0"
+              ></label>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="display">
+        <div class="display__output">0</div>
+      </section>
+      <section class="calc__body">
+        <div class="culc__grid-container">
+          <div class="item num">7</div>
+          <div class="item num">8</div>
+          <div class="item num">9</div>
+          <div class="item item-del">DEL</div>
+          <div class="item num">4</div>
+          <div class="item num">5</div>
+          <div class="item num">6</div>
+          <div class="item num">+</div>
+          <div class="item num">1</div>
+          <div class="item num">2</div>
+          <div class="item num">3</div>
+          <div class="item num">-</div>
+          <div class="item num">.</div>
+          <div class="item num">0</div>
+          <div class="item num">/</div>
+          <div class="item num">*</div>
+          <div class="item item-reset">reset</div>
+          <div class="item item-equal">=</div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
